@@ -1,0 +1,7 @@
+{
+  "name": "RideBuddy",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
