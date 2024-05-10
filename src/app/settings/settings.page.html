@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Settings</ion-title>
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/"></ion-back-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content [fullscreen]="true">
+    <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Settings</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+
+    <hr>
+      <ion-item>
+        Toggle Dark Mode
+        <ion-button slot="end">
+          <ion-toggle slot="end" (ionChange)='toggleDarkMode()'></ion-toggle>
+        </ion-button>
+      </ion-item>
+
+      <ion-item>
+        Wipe all personal data
+        <ion-button slot="end" color="danger" (click)="removeData()">Delete all</ion-button>
+      </ion-item>
+
+      <br>
+      <p></p>
+  
+  </div>

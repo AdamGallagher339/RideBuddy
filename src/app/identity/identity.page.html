@@ -1,0 +1,54 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Identity</ion-title>
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/"></ion-back-button>
+      </ion-buttons>
+      <ion-avatar slot="end">
+        <img alt="" width="large" src="{{profilePic}}" />
+      </ion-avatar>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content [fullscreen]="true">
+    <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Identity</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container" style="text-align: center;">
+    
+    <br>
+    <ion-list>
+      <ion-list>
+
+        <ion-item>
+          <ion-input [(ngModel)]="profilePic" label="Profile Picture" placeholder="Enter text" name="profilePic"
+          ></ion-input>
+        </ion-item>
+    
+        <ion-item>
+          <ion-input [(ngModel)]="firstName" label="First Name" placeholder="Enter text" name="firstName"></ion-input>
+        </ion-item>
+    
+        <ion-item>
+          <ion-input [(ngModel)]="lastName" label="Last Name" placeholder="Enter text" name="lastName"></ion-input>
+        </ion-item>
+    
+        <ion-item>
+          <ion-input [(ngModel)]="password" label="Password" type="password" value="password" name="password"></ion-input>
+        </ion-item>
+    
+        <ion-item>
+          <ion-input [(ngModel)]="email" label="Email" type="email" placeholder="email@domain.com" name="email"></ion-input>
+        </ion-item>
+    
+        <br>
+
+        <ion-button color="danger" (click)="saveChange()">Update Profile</ion-button>
+
+      </ion-list>
+    </ion-list>
+  
+  </div>
