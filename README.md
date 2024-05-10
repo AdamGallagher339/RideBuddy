@@ -9,5 +9,5 @@ Our app features an identity page where you can personalise your details for the
 ** npm install @capacitor/geolocation **
 ** npm install @ionic/storage-angular **
 
-#START THE APP
+# START THE APP
 ** ionic serve **
