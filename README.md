@@ -6,7 +6,7 @@ RideBuddy gives riders an uptodate weather update based on their devices locatio
 Our app features an identity page where you can personalise your details for the app but you can also remove all data with the click of a button.
 
 #CLONING GITHUB
-git clone https://github.com/
+git clone https://github.com/AdamGallagher339/RideBuddy <br />
 cd .\RideBuddy
 
 # NPM INSTALL
