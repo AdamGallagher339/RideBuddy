@@ -6,8 +6,8 @@ RideBuddy gives riders an uptodate weather update based on their devices locatio
 Our app features an identity page where you can personalise your details for the app but you can also remove all data with the click of a button.
 
 **NPM INSTALL**
-npm install @capacitor/geolocation
-npm install @ionic/storage-angular
+-npm install @capacitor/geolocation
+-npm install @ionic/storage-angular
 
 **START THE APP**
-ionic serve
+-ionic serve
